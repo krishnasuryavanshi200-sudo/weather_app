@@ -1,12 +1,73 @@
-# React + Vite
+# React Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and modern weather application built with React and Vite. This app allows users to search for current weather information by city name, displaying temperature, weather conditions, and more in a clean UI.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Search for weather by city
+- Displays temperature, weather description, and other details
+- Responsive and user-friendly interface
+- Built with React and Vite for fast performance
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (v16 or higher recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```sh
+   git clone <repository-url>
+   cd REACT-WEATHER-APP
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   # or
+   yarn install
+   ```
+
+### Running the App
+
+Start the development server:
+
+```sh
+npm run dev
+# or
+yarn dev
+```
+
+The app will be available at `http://localhost:5173` (default Vite port).
+
+## Project Structure
+
+```
+REACT-WEATHER-APP/
+├── public/              # Static assets
+├── src/                 # Source code
+│   ├── App.jsx          # Main app component
+│   ├── SearchBar.jsx    # Search bar component
+│   ├── WeatherCard.jsx  # Weather display component
+│   ├── index.css        # Global styles
+│   └── main.jsx         # Entry point
+├── index.html           # HTML template
+├── package.json         # Project metadata and scripts
+├── vite.config.js       # Vite configuration
+└── README.md            # Project documentation
+```
+
+## Customization
+
+- Update the UI or add new features in the `src/` folder.
+- Replace or update assets in the `public/` or `src/assets/` folders.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+Feel free to contribute or suggest improvements!
